@@ -1,0 +1,13 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>{{pokemon.name}}</mat-card-title>
+    <mat-card-subtitle>{{pokemon.id}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{pokemonImg}}" alt="pokemon" height="auto" width="auto">
+  <mat-card-content>
+    <mat-chip-list>
+      <mat-chip color="primary" selected>Tipo : {{pokemonType}}</mat-chip>
+    </mat-chip-list>>
+  </mat-card-content>
+</mat-card>
